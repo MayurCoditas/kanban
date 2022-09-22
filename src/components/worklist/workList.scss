@@ -1,0 +1,28 @@
+.worklist-container {
+  display: flex;
+  padding: 0px 16px;
+  background-color: rgb(37, 37, 37);
+  color: white;
+  height: 90vh;
+  overflow: visible;
+
+  .last-column-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(44, 44, 44);
+    height: 90%;
+    border-radius: 8px;
+    margin-top: 30px;
+    width: 192px;
+    margin-left: 8px;
+    button {
+      background-color: rgb(44, 44, 44);
+      color: white;
+      border: none;
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+}

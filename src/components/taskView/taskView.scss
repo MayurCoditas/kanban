@@ -1,0 +1,69 @@
+.task-view-container {
+  margin: 0;
+  align-self: center;
+  background-color: rgb(68, 66, 66);
+  color: white;
+  border-radius: 8px;
+  padding: 16px;
+
+  p {
+    margin-bottom: 16px;
+  }
+
+  .task-heading {
+    margin-top: 8px;
+  }
+  .task-description {
+    font-size: 12px;
+    color: grey;
+  }
+  .subtask-container-heading {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  .checkbox-container {
+    display: flex;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    margin: 4px 0px;
+    width: 272px;
+    label {
+      margin-left: 16px;
+      font-size: 12px;
+    }
+    input {
+    }
+  }
+  button {
+    width: 120px;
+    height: 32px;
+  }
+
+  select {
+    width: 272px;
+    align-self: center;
+    background-color: rgb(68, 66, 66);
+    color: white;
+    height: 32px;
+    padding: 4px;
+    margin-top: 12px;
+  }
+  select:focus {
+    outline: none;
+  }
+  button {
+    width: 272px;
+    border-radius: 16px;
+    height: 24px;
+    margin: 16px;
+    border: none;
+    color: gray;
+    font-size: 12px;
+    font-weight: 600;
+  }
+}

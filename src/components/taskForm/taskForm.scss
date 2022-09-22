@@ -1,0 +1,126 @@
+.taskName-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 8px;
+}
+
+.form-container {
+  margin: 0;
+  align-self: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: rgb(68, 66, 66);
+  color: white;
+  border-radius: 8px;
+  .form-heading {
+    margin-left: 16px;
+    padding-bottom: 8px;
+  }
+  .select-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    label {
+      align-self: flex-start;
+    }
+    select {
+      align-self: flex-start;
+      margin-left: 16px;
+    }
+  }
+  .textArea {
+    width: 272px;
+    margin-left: 16px;
+    height: 56px;
+    background-color: rgb(68, 66, 66);
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px white;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+  }
+  .subtask-input-container {
+    display: flex;
+    justify-content: flex-start;
+
+    button {
+      width: 24px;
+      background-color: rgb(68, 66, 66);
+      border: none;
+      margin: 0;
+      padding: 0;
+      color: white;
+      margin-bottom: 8px;
+
+      svg {
+        height: 16px;
+        width: 16px;
+        fill: gray;
+        margin-left: 8px;
+        pointer-events: none;
+      }
+    }
+    button:hover {
+      cursor: pointer;
+    }
+    input {
+      width: 248px;
+      margin-bottom: 8px;
+    }
+    .noSubTask-Text {
+      margin-left: 48px;
+      color: white;
+    }
+  }
+  label {
+    margin-left: 16px;
+    padding-bottom: 8px;
+    font-size: 12px;
+  }
+
+  input {
+    width: 272px;
+    margin-left: 16px;
+    height: 24px;
+    margin-bottom: 16px;
+  }
+  input[type="text"] {
+    background-color: rgb(68, 66, 66);
+    border-radius: 4px;
+    box-shadow: 0px 0px 2px white;
+    border: none;
+    color: white;
+  }
+  textarea:focus,
+  input:focus {
+    outline: none;
+  }
+  button {
+    width: 272px;
+    border-radius: 16px;
+    height: 24px;
+    align-self: center;
+    margin: 8px;
+    border: none;
+    color: gray;
+    font-size: 12px;
+    font-weight: 600;
+  }
+  select {
+    width: 272px;
+    align-self: center;
+    background-color: rgb(68, 66, 66);
+    color: white;
+    height: 32px;
+    padding: 4px;
+  }
+  select:focus {
+    outline: none;
+  }
+  .create-task {
+    background-color: rgb(117, 81, 247);
+    color: white;
+    margin-top: 16px;
+  }
+}

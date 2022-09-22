@@ -1,0 +1,23 @@
+.board-heading-container {
+  display: flex;
+  align-items: center;
+  min-width: 80vw;
+  padding: 16px;
+  background-color: rgb(51, 51, 51);
+  color: white;
+  height: 10vh;
+  .board-heading {
+    margin-left: 0px;
+    font-weight: 600;
+  }
+  button {
+    position: fixed;
+    right: 32px;
+    width: 120px;
+    height: 32px;
+    border-radius: 16px;
+    background-color: rgb(117, 81, 247);
+    border: none;
+    color: white;
+  }
+}

@@ -1,0 +1,30 @@
+.column-container {
+  display: flex;
+  flex-direction: column;
+  width: 192px;
+  padding: 8px;
+
+  .column-heading {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 8px;
+    color: gray;
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .tasks-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .circle {
+    height: 10px;
+    width: 10px;
+    background-color: rgb(48, 158, 231);
+    border-radius: 50%;
+  }
+  p {
+    text-align: center;
+  }
+}
